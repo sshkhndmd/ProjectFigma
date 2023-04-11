@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    
+}
+.section__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 15px;
+    max-width: 1110px;
+}
+
+.logo{
+    margin-top: 15px;
+}
+.menu{
+    margin-left: -300px;
+    margin-right: 64px;
+    margin-top: 23px;
+    color: #071330;
+}
+.patients{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+.menu a {
+    text-decoration: none;
+    color: #071330;
+}
+.button {
+    background-color: #3D55F9;
+    border: none;
+    color: white;
+    height: 40px;
+    width: 152px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 40px;
+}
+
+.button1 {
+    border-radius: 12px;
+}
+/*/////////////////////////////////////////////*/
+.block2{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+}
+.text{
+    height: 100px;
+    width: 460px;
+    color: #071330;
+}
+.textone{
+    margin-top: 125px;
+}
+.texttwo{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 74px;
+    color: #071330;
+}
+.imgwoman{
+    left: -100px;
+}
+.enter{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    width: 497px;
+    margin-top: 24px;
+    border-radius: 12px;
+    box-shadow: -1px 11px 17px 0px #c7c7c7;;
+}
+.email{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 31px 32px;
+}
+.button2{
+    background-color: #3D55F9;
+    border: none;
+    color: white;
+    height: 56px;
+    width: 172px;
+    left: 313px;
+    top: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    margin: 11px 12px;
+}
+/*//////////////////////////////////////////////////////////////////////*/
+.block3{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    height: 553.5px;
+    margin-top: 234px;
+}
+.smartphone{
+    width: 270px;
+    left: 109px;
+    border-radius: 44px;
+    padding-left: 109px;
+}
+.social{
+    height: 416px;
+    width: 470px;
+    left: 645px;
+    top: 68.75px;
+    border-radius: 0px;
+    padding-left: 266px;
+}
+.s1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 20px;
+    width: 137px;
+    left: 0px;
+    top: 0.25px;
+    border-radius: nullpx;
+    color: #3D55F9;
+}
+.s2{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 94px;
+    width: 389px;
+    left: 0px;
+    top: 40.25px;
+    border-radius: nullpx;
+    color: #071330;
+
+}
+.s3{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 97px;
+    width: 437px;
+    left: 0px;
+    top: 7px;
+    border-radius: nullpx;
+    color: #071330;
+
+}
+.s4{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 129px;
+    width: 463px;
+    left: 0px;
+    top: 135px;
+    border-radius: nullpx;
+    color: #071330;
+}
+/*////////////////////////////////////*/
+.foot-menu{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    max-width: 1110px;
+    
+    height: 209px;
+
+
+}
+.foot1{
+    padding-top: 84px;
+    padding-bottom: 83px;
+
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 14px;
+letter-spacing: 0em;
+text-align: left;
+color: #07133080;
+
+}
+.foot2{
+    padding-left: 500px;
+    padding-top: 95.5px;
+    padding-bottom: 95.5px;
+    padding-right: 0px;
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: #07133080;
+
+    display: flex;
+    flex-direction: row;
+}
