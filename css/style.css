@@ -6,7 +6,6 @@
 html, body {
     height: 100%;
     width: 100%;
-    
 }
 .section__wrapper {
     display: flex;
@@ -15,7 +14,6 @@ html, body {
     padding-top: 15px;
     max-width: 1110px;
 }
-
 .logo{
     margin-top: 15px;
 }
@@ -38,7 +36,7 @@ html, body {
     color: #071330;
 }
 .button {
-    background-color: #f93d3d;
+    background-color: #3D55F9;
     border: none;
     color: white;
     height: 40px;
@@ -52,12 +50,13 @@ html, body {
 .button1 {
     border-radius: 12px;
 }
-/*/////////////////////////////////////////////*/
+/*-----------------------------block2-----------------------------*/
 .block2{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     max-width: 1110px;
+    position: relative;
 }
 .text{
     height: 100px;
@@ -65,7 +64,7 @@ html, body {
     color: #071330;
 }
 .textone{
-    margin-top: 125px;
+    margin-top: 67px;
 }
 .texttwo{
     font-family: 'Roboto';
@@ -77,8 +76,22 @@ html, body {
     margin-top: 74px;
     color: #071330;
 }
+.raz{
+    margin-top: 158px;
+    height: 449px;
+    width: 530px;
+    left: 15px;
+    top: 0px;
+    border-radius: 0px;
+}
 .imgwoman{
-    left: -100px;
+    position: absolute;
+
+    height: 593px;
+    left: 41.15%;
+    right: 5.75%;
+    top: 84px;
+
 }
 .enter{
     background: white;
@@ -87,7 +100,7 @@ html, body {
     justify-content: space-between;
     height: 80px;
     width: 497px;
-    margin-top: 24px;
+    margin-top: 32px;
     border-radius: 12px;
     box-shadow: -1px 11px 17px 0px #c7c7c7;;
 }
@@ -114,7 +127,7 @@ html, body {
     border-radius: 12px;
     margin: 11px 12px;
 }
-/*//////////////////////////////////////////////////////////////////////*/
+/*-----------------------------block3-----------------------------*/
 .block3{
     margin: 0 auto;
     display: flex;
@@ -164,7 +177,6 @@ html, body {
     top: 40.25px;
     border-radius: nullpx;
     color: #071330;
-
 }
 .s3{
     font-family: Roboto;
@@ -179,7 +191,6 @@ html, body {
     top: 7px;
     border-radius: nullpx;
     color: #071330;
-
 }
 .s4{
     font-family: Roboto;
@@ -195,28 +206,24 @@ html, body {
     border-radius: nullpx;
     color: #071330;
 }
-/*////////////////////////////////////*/
+/*----------------------footer-----------------------*/
 .foot-menu{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     max-width: 1110px;
-    
     height: 209px;
-
-
 }
 .foot1{
     padding-top: 84px;
     padding-bottom: 83px;
-
     font-family: Roboto;
-font-size: 12px;
-font-weight: 400;
-line-height: 14px;
-letter-spacing: 0em;
-text-align: left;
-color: #07133080;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #07133080;
 
 }
 .foot2{
@@ -225,13 +232,12 @@ color: #07133080;
     padding-bottom: 95.5px;
     padding-right: 0px;
     font-family: Roboto;
-font-size: 15px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: left;
-color: #07133080;
-
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #07133080;
     display: flex;
     flex-direction: row;
 }
