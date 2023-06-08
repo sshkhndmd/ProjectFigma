@@ -6,23 +6,29 @@
     <title>Демо Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="main.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
   </head>
   <body>
     <header>
-      <section class="section header-menu">
-        <div class="container section__wrapper menu__wrapper">
+      <section class="container header-menu ">
+        
+        <div class="section__wrapper menu__wrapper">
+          <button class="navbar-toggler" id="navbar-toggler" type="button">
+            <img src="img/bars-solid.svg" alt="" width="30px">
+          </button>
           <div class="logo">
             <a href="#">
               <img src="img/logo.jpg" alt="Логотип сайта">
             </a>
           </div>
           <div class="menu">
-            <ul>
-              <li><a href="#" class="patients">For Patients</a></li>
-              <li><a href="#">For Doctors</a></li>
+            <ul class="mainmenu__list">
+              <li><a href="#" class="patients for">For Patients</a></li>
+              <li><a href="#" class="for">For Doctors</a></li>
             </ul>
           </div>
           <div>
@@ -32,42 +38,62 @@
       </section>
     </header>
     <main class="main">
-
-      <section class="block2">
+      <section class="container block2">
         <div class="raz">
-          <h1 class="text textone">
+          <h2 class="texth2 text1">
             Finally get the answers needed for healthy skin
-          </h1>
-          <h2 class="text texttwo">
-            Remmy helps you uncover the most effective skin care treatments by letting you test and track products with others.
           </h2>
+          <p class="textp text2">
+            Remmy helps you uncover the most effective skin care treatments by letting you test and track products with others.
+          </p>
           <div class="enter">
-            <p class="email">Enter email...</p>
-            <button class="button2">Request Invite</button>
+            <form class="formenter" action="/index.php" method="POST">
+              <input type="text" name="email" value="" placeholder="Enter email..." required class="email">
+              <input type="submit" value="Request Invite" class="button2">
+            </form>
           </div>
         </div>
-        <div class="woman">
-          <img src="img/woman.svg" alt="" class="imgwoman">
-        </div>
+        <img src="img/woman.svg" alt="" class="imgwoman">
       </section>
-      
-      <section class="block3">
+
+      <section class="container block3">
         <div class="smartphone">
-          <img src="img/smartphone.svg" alt="" class="smartphone">
+          <img src="img/smartphone3.png" alt="" class="imgsmartphone">
         </div>
         <div class="social">
           <p class="s1">
             Social Biohacking
           </p>
-          <p class="s2">
-            Test skin treatments with others
-          </p>
-          <p class="s3">
+          <div class="testskin">
+            <h2 class="texth2">
+              Test skin treatments with others
+            </h2>
+          </div>
+          <p class="textp withsocialp">
             With social biohacking, you can build meaningful connections with people suffering from the same skin conditions as yourself.
           </p>
-          <p class="s4">
+          <p class="textp">
             You’ll be able to join together to test how effective treatments and products actually are, as well as help others by sharing the discoveries you’ve made from your own unique skin health journey.
           </p>
+        </div>
+      </section>
+      <section class="container block4">
+        <div class="social2">
+          <p class="s1">
+            Treatments
+          </p>
+          <h2 class="texth2 textfind">
+            Find Treatments That Actually Work
+          </h2>
+          <p class="text4 textget">
+            Get access to already proven therapies for psoriasis, eczema, acne, and many other skin conditions.
+          </p>
+          <p class="textp textremmy">
+            Remmy helps people find the most effective treatments, remedies, and products, so you’re not wasting time and money on the ones that don’t work.
+          </p>
+        </div>
+        <div class="smartphone2">
+          <img src="img/smartphone4.png" alt="" class="imgsmartphone2">
         </div>
       </section>
     </main>
@@ -79,12 +105,14 @@
           <p>Privacy Policy and Terms of Service apply.</p>
         </div>
         <div class="foot2">
-          <p>Terms</p>
-          <p>Privacy</p>
-          <p>Contact Us</p>
+          <a href="#" class="privacy">Terms</a>
+          <a href="#" class="privacy">Privacy</a>
+          <a href="#" class="privacy">Contact Us</a>
+
         </div>
       </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
   </body>
 </html>
