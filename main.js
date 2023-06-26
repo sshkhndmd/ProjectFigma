@@ -1,4 +1,5 @@
 'use strict'
+
 const btn = document.getElementById("navbar-toggler");
 const menus = document.querySelectorAll(".menu");
 btn.addEventListener('click', () => {
